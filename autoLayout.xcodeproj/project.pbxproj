@@ -15,6 +15,8 @@
 		FDDCE4E01CCA869500669315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDCE4DE1CCA869500669315 /* LaunchScreen.storyboard */; };
 		FDDCE4EB1CCA869500669315 /* autoLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE4EA1CCA869500669315 /* autoLayoutTests.m */; };
 		FDDCE4F61CCA869500669315 /* autoLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE4F51CCA869500669315 /* autoLayoutUITests.m */; };
+		FDDCE5061CCA86AF00669315 /* myTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDCE5041CCA86AF00669315 /* myTableViewCell.m */; };
+		FDDCE5071CCA86AF00669315 /* myTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDDCE5051CCA86AF00669315 /* myTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		FDDCE4F11CCA869500669315 /* autoLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autoLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDCE4F51CCA869500669315 /* autoLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = autoLayoutUITests.m; sourceTree = "<group>"; };
 		FDDCE4F71CCA869500669315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDDCE5031CCA86AF00669315 /* myTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myTableViewCell.h; sourceTree = "<group>"; };
+		FDDCE5041CCA86AF00669315 /* myTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTableViewCell.m; sourceTree = "<group>"; };
+		FDDCE5051CCA86AF00669315 /* myTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				FDDCE4D41CCA869500669315 /* AppDelegate.m */,
 				FDDCE4D61CCA869500669315 /* ViewController.h */,
 				FDDCE4D71CCA869500669315 /* ViewController.m */,
+				FDDCE5031CCA86AF00669315 /* myTableViewCell.h */,
+				FDDCE5041CCA86AF00669315 /* myTableViewCell.m */,
+				FDDCE5051CCA86AF00669315 /* myTableViewCell.xib */,
 				FDDCE4D91CCA869500669315 /* Main.storyboard */,
 				FDDCE4DC1CCA869500669315 /* Assets.xcassets */,
 				FDDCE4DE1CCA869500669315 /* LaunchScreen.storyboard */,
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDDCE4E01CCA869500669315 /* LaunchScreen.storyboard in Resources */,
+				FDDCE5071CCA86AF00669315 /* myTableViewCell.xib in Resources */,
 				FDDCE4DD1CCA869500669315 /* Assets.xcassets in Resources */,
 				FDDCE4DB1CCA869500669315 /* Main.storyboard in Resources */,
 			);
@@ -271,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDDCE4D81CCA869500669315 /* ViewController.m in Sources */,
+				FDDCE5061CCA86AF00669315 /* myTableViewCell.m in Sources */,
 				FDDCE4D51CCA869500669315 /* AppDelegate.m in Sources */,
 				FDDCE4D21CCA869500669315 /* main.m in Sources */,
 			);
